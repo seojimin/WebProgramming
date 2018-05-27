@@ -1,0 +1,175 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: ___Jimin Seo_____ Student ID: _145803169___ Date: _2018 Mar 22___ 
+* 
+********************************************************************************/
+
+
+/*
+• Set the maximum width to 960 pixels 
+• No top or bottom margins 
+• Left and right margins must be “auto” 
+*/
+
+.main-container{
+  max-width: 960px;
+  margin: 0 auto; 
+}
+
+/*
+• Set the width to 30% 
+• Element is positioned on the left side of the page 
+ */
+.main-container nav{
+  width:30%; 
+  float: left;
+}
+
+/*
+• Set the width to 70% 
+• Element is Positioned on the right side of the page 
+*/
+.main-container .main {
+  width:70%;
+  float:right;
+}
+
+/*
+• Padding around the content must be 10 pixels 
+• Background colour must be #eeeeee 
+• There must be a solid bottom border 1 pixel thick, coloured #cccccc 
+• Bottom margin must be 30 pixels 
+*/
+.main-container header {
+padding: 10px;
+background-color: #eeeeee;
+border-bottom: 1px solid #cccccc;
+margin-bottom: 30px;
+}
+
+/*
+• Set the width to 70% 
+• The size of the font must be 24 pixels 
+• Element is Positioned on the right side 
+• The text is right-aligned 
+• Top margin must be 10 pixels 
+*/
+.main-container header h1 {
+  width: 70%; 
+  font-size: 24px; 
+  float: right;
+  text-align: right;
+  margin-top:10px;
+}
+
+/*
+• position the element beneath all floating elements (“clear” the element) 
+• Padding around the top and bottom must be 20 pixels 
+• Padding around the left and right must be 10 pixels 
+• Background colour must be #eeeeee 
+• There must be a solid top border 1 pixel thick, coloured #cccccc 
+• The size of the font must be 13 pixels 
+*/
+.main-container footer{
+  clear: both;
+  padding: 20px;
+  background-color: #eeeeee;
+  border-top: 1px solid #cccccc;
+  font-size: 13px;
+}
+
+/*
+• Set the width to 30% 
+• The size of the font must be 25 pixels 
+• The font must be bold 
+*/
+#logo {
+  width: 30%;
+  font-size: 25p; 
+  font-weight: bold;
+}
+
+/*
+• The image must be 94 pixels wide
+• The image must be vertically positioned in the middle, relative to the “Canada” text  
+*/
+#logo img {
+  width: 94px;
+  vertical-align: middle;
+}
+
+/*
+• Do not show any bullets or numbers for the list 
+*/
+nav ul {
+  list-style-type: none;
+}
+
+/*
+• render the link as a “block-level” element 
+• remove the underline 
+• Padding around the link must be 5 pixels 
+*/
+nav ul a{
+  display: block; 
+  text-decoration:none; 
+  padding: 5px;
+}
+
+/*
+• Set the width to 30% 
+• Each new element is positioned to the right of the previous element, horizontally (hint: float:left) 
+• The margin around the element must be 8 pixels 
+• The height of the element must be 310 pixels 
+*/
+div.province {
+  width: 30%;
+  float: left;
+  margin: 8px;
+  height: 310px;
+}
+
+/*
+• The element must not be any higher than 165 pixels 
+• Only If the content goes beyond 165 pixels high, show a scroll bar 
+• If the content does not fit in the container horizontally, hide the scrollbar 
+• The top and bottom margins must be 8 pixels 
+*/
+
+div.province .description {
+  max-height: 165px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  margin: 8px;  
+}
+
+/*
+• render the link as a “block-level” element 
+• position the text in the middle of the element (horizontally) 
+• set the colour of the background to #555555 
+• Set the colour of the text to #eeeeee 
+• remove the underline 
+• Padding around the link must be 5 pixels 
+*/
+div.province a {
+  display: block; 
+  text-align: center;
+  background-color: #555555;
+  color: #eeeeee; 
+  text-decoration: none; 
+  padding: 5px;
+}
+
+/*
+• set the width to be 100% of the parent 
+*/
+img.flag{
+  width:100%;
+}

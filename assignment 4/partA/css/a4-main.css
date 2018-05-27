@@ -1,0 +1,92 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: ___Jimin Seo____ Student ID: __145803169__ Date: __2018 Mar 22_____ 
+* 
+********************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body
+{
+    color: #f81b39;
+    background-image: url(aaa.png);
+}
+
+nav ul li a:hover
+{
+    color: #fff;
+    cursor:pointer;
+}
+
+nav
+{
+    background-color: #7c7c7c;
+    color: white;
+    vertical-align:middle; 
+    margin-bottom:20px;
+    margin-top:-20px;
+}
+
+footer
+{
+    background-color: #7c7c7c;
+    color: white;
+    vertical-align:middle; 
+    margin-top:20px;
+}
+
+header 
+{
+    background-color: #eebcc4;
+    padding-bottom:20px;
+}
+
+h1.app-title
+{
+    text-align: center;
+    font-family: 'Montserrat', Times, serif;
+    font-size: 30px;
+    color: #f81b39; 
+}
+
+div.main-table-container
+{
+    max-height: 700px;
+    overflow: scroll;
+    background-color: #e0e0e0;
+}
+
+table.main-table-top th
+{
+    font-family: 'Montserrat', Times, serif;
+    background-color: #eebcc4;
+    border: 1px solid #b93232;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+table.main-table td
+{
+    border: 1px solid #b93232;
+    padding: 10px;
+    text-align: left; 
+    vertical-align: middle;   
+    font-size: 13px; 
+}
+
+table.main-table p span
+{
+    font-family: 'Montserrat', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
